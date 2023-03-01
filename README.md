@@ -13,8 +13,8 @@ This code is a Python script that creates a dashboard to visualize crude oil pro
 ## Data Sources
 The script loads two CSV files that contain preprocessed crude oil production data, that are both extracted from the  Crude Oil Production by Country in kaggle "https://www.kaggle.com/datasets/mathurinache/crudeoilproductionbycountry":
 
-'Crude Oil Production by Country Pre-processed.csv'
-'TopProducersPerYear.csv'
+1. Pre Process the data with **OilProductionByCountryCleaningAndPreprocessing.py** and save 'Crude Oil Production by Country Pre-processed.csv'
+2. Use **OilProductionByCountryBubbleMapProcessing.py** on 'Crude Oil Production by Country Pre-processed.csv' to obtain 'TopProducersPerYear.csv'
 
 ## Dashboard Layout
 The app layout consists of three main components:
