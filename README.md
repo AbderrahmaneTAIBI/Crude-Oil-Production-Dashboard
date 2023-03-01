@@ -21,7 +21,9 @@ The app layout consists of three main components:
 
 1. A header with the title of the app ("Crude Oil Production Dashboard") and centered text alignment.
 2. A world map with a slider to select the year, and a tooltip to show the selected year value. The map displays the top 20 crude oil producers for the selected year.
+![OilBubbleMap](https://user-images.githubusercontent.com/55601081/222087783-935f6372-2e21-4f7d-a727-3b777eae2013.png)
 3. A dropdown menu to select one or more countries to display on the line chart, and the line chart itself.
+![OilLinePlot](https://user-images.githubusercontent.com/55601081/222087787-54994c22-c474-4242-a700-a5fcd5cd86b9.png)
 
 ## Callback Function
 The app uses a callback function to update the line chart and the world map when the user interacts with the dropdown menu or the slider. The callback function takes two inputs:
